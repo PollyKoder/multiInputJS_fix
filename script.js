@@ -4,7 +4,9 @@ function submit() {
     let newPass = document.querySelector("#textPassword").value;
     
     let outputP = document.querySelector("#p");
-    outputP.textContent = newUser, newEmail, newPass;
+    outputP.textContent = newUser;
+    // outputP.textContent = newEmail;
+    // outputP.textContent = newPass;
 }
 
 let submitButton = document.querySelector("#submitButton");
